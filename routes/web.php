@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EmployeeController;
 use App\Http\Controllers\MemberController;
+use App\Http\Controllers\FeeController;
 Route::get('/', function () {
     return view('welcome');
 });
@@ -18,6 +19,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::resource('employees', EmployeeController::class);
     Route::resource('members', MemberController::class);
+    Route::resource('fees', FeeController::class);
 });
 
 require __DIR__.'/auth.php';

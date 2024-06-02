@@ -7,7 +7,7 @@
             <li class="hover:bg-blue-700"><a href="/" class="block px-4 py-2">Dashboard</a></li>
             <li class="hover:bg-blue-700"><a href="/employees" class="block px-4 py-2">Employees</a></li>
             <li class="hover:bg-blue-700"><a href="/members" class="block px-4 py-2">Members</a></li>
-            <li class="hover:bg-blue-700"><a href="#" class="block px-4 py-2">Logout</a></li>
+            <li class="hover:bg-blue-700"><a href="/fees" class="block px-4 py-2">Fee</a></li>
         </ul>
     </nav>
 </div>
